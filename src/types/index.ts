@@ -49,3 +49,24 @@ export interface Sizes {
     ringPosition: [number, number, number];
     targetPosition: [number, number, number];
 }
+
+export interface Project {
+    title: string,
+    desc: string,
+    subDesc: string,
+    href: string,
+    texture: string,
+    logo: string,
+    logoStyle: {
+        backgroundColor: string,
+        background?: string,
+        border: string,
+        boxShadow: string,
+    },
+    spotLight: string,
+    tags: {
+        id: number,
+        name: string,
+        path: string
+    }[]
+}
