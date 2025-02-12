@@ -70,3 +70,11 @@ export interface Project {
         path: string
     }[]
 }
+
+export interface clientReview {
+    id: number,
+    name: string,
+    position: string,
+    img: string,
+    review: string,
+}

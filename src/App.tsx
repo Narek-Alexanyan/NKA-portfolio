@@ -2,6 +2,7 @@ import {Navbar} from "./section/Navbar.tsx";
 import {Hero} from "./section/Hero.tsx";
 import {About} from "./section/About.tsx";
 import {Projects} from "./section/Projects.tsx";
+import {Clients} from "./section/Clients.tsx";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
        <Hero />
        <About />
        <Projects />
+       <Clients />
    </main>
   )
 }
