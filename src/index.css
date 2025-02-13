@@ -52,7 +52,12 @@
   }
 
   .nav-li_a {
-    @apply text-lg md:text-base hover:text-white transition-colors;
+    @apply relative text-lg md:text-base hover:text-white transition-colors;
+  }
+
+  .nav-li_underline {
+    transform: scale(0, 1);
+    @apply underline;
   }
 
   .nav-sidebar {
