@@ -34,7 +34,6 @@ export const Developer: React.FC<IDeveloperProps> = ({animationName = 'idle', ..
     const { actions } = useAnimations([idleAnimation[0], saluteAnimation[0], clappingAnimation[0], victoryAnimation[0]], group) as { actions: AnimationActions }
 
     useEffect(() => {
-        console.log(animationName)
         const action = actions[animationName];
         if (action) {
             action.reset().fadeIn(0.5).play();
