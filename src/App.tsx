@@ -3,6 +3,7 @@ import {Hero} from "./section/Hero.tsx";
 import {About} from "./section/About.tsx";
 import {Projects} from "./section/Projects.tsx";
 import {Clients} from "./section/Clients.tsx";
+import {Experience} from "./section/Experience.tsx";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
        <About />
        <Projects />
        <Clients />
+       <Experience />
    </main>
   )
 }
